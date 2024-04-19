@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Video Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form onsubmit="searchVideo(); return false;">
+        <label for="search-input" class="visually-hidden">YouTube Video Search</label>
+        <input type="text" id="search-input" placeholder="Search videos" />
+        <button type="submit">Search</button>
+    </form>
+    <main>  
+        <section id="results"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
